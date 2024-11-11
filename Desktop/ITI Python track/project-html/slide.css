@@ -1,0 +1,29 @@
+/* body{
+    background-color: rgb(172, 174, 196);
+} */
+.slider{
+    
+    width: 300px;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.slider ul {
+    padding: 0;
+    list-style: none;
+    width: 1200px;
+    position: relative;
+    animation: sliding 5s ease-in-out infinite;
+}
+li{
+    float: right;
+}
+
+@keyframes sliding
+{
+    0%{left: 0}
+    30%{left: -210px;}
+    60%{left: -430px;}
+    90%{left: -630px;}
+    100%{left: -840px;}
+}
